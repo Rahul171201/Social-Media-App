@@ -1,0 +1,83 @@
+.postContainer{
+    width: 100%;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    box-shadow: 0px 0px 17px 3px rgba(207,219,218,0.78);
+-webkit-box-shadow: 0px 0px 17px 3px rgba(207,219,218,0.78);
+-moz-box-shadow: 0px 0px 17px 3px rgba(207,219,218,0.78);
+    /* overflow-y: scroll; */
+    height: calc(100vh - 250px);
+}
+.postWrapper{
+    padding: 20px;
+}
+.postProfileImage{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.postTop{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 15px;
+    padding-bottom: 10px;
+}
+.postTopLeft{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.postUsername{
+    margin-right: 10px;
+    margin-left: 5px;
+    font-size: 15px;
+}
+.postTime{
+    font-size: 10px;
+    color: gray;
+}
+.showMore{
+    cursor: pointer;
+}
+.postCenter{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px 0px;
+}
+.postImage{
+    width: 100%;
+    max-height: 300px;
+    object-fit: contain;
+    margin-top: 10px;
+}
+.postBottom{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.heartIcon{
+    cursor: pointer;
+    width: 30px;
+    object-fit: cover;
+}
+.likeIcon{
+    cursor: pointer;
+    width: 30px;
+    object-fit: cover;
+}
+.postBottomLeft{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.postBottomRight{
+
+}
+.postCommentText{
+    cursor: pointer;
+    border-bottom: 1px dashed gray;
+}

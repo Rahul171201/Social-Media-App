@@ -1,0 +1,32 @@
+.rightbar{
+    flex: 3.5;
+    height: calc(100vh - 50px);
+    
+}
+.rightbarWrapper{
+    padding: 20px;
+    align-items: center;
+}
+.birthdayContainer{
+    padding: 20px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.birthdayImage{
+    height: 150px;
+    margin-bottom: 10px;
+}
+.adImage{
+    width: 100%;
+    border-radius: 10px;
+}
+.rightbarFriendList{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    align-items:flex-start;
+    flex-direction: column;
+}
