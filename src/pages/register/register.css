@@ -1,0 +1,82 @@
+.loginContainer{
+    background-color: #E7EAB5;
+    display: flex;
+    width: 100vw;
+    height:100vh;
+}
+.loginWrapper{
+    width: 100%;
+    padding: 50px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.loginLeft{
+    padding: 50px;
+    flex: 7;
+}
+.title{
+    color: #57CC99;
+    font-size: 30px;
+}
+.content{
+    font-size: 20px;
+}
+.logoImg{
+    width: 50%;
+    height : 50%;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-top: 40px;
+}
+
+
+.loginRight{
+    flex: 5;
+    align-items: center;
+    background-color: #FDFCE5;
+    padding: 100px 50px;
+    border-radius: 7px;
+}
+.loginRightBox{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.usernameText{
+    margin: 0px;
+    width: 70%;
+}
+.emailText{
+    margin: 20px 0px;
+    width: 70%;
+}
+.passwordText{
+    margin: 20px 0px;
+    width: 70%;
+}
+.confirmPasswordText{
+    margin: 20px 0px;
+    width: 70%;
+}
+.registerButton{
+    margin: 20px 0px;
+    width: 30%;
+    height: 40px;
+    background-color: #3DB2FF;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+}
+
+.loginButton{
+    margin: 20px 0px;
+    width: 60%;
+    height: 50px;
+    border-radius: 6px;
+    background-color: #FFCC29;
+    border: none;
+    cursor: pointer;
+}
