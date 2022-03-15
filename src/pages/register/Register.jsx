@@ -15,7 +15,9 @@ export default function Register() {
                     <div className="loginRightBox">
                     <TextField className="usernameText" id="outlined-basic" variant="outlined" placeholder="Username"/>
                     <TextField className="emailText" id="outlined-basic" variant="outlined" placeholder="Email"/>
+                    <br></br>
                     <TextField className="passwordText" id="outlined-basic" variant="outlined" placeholder="Password"/>
+                    <br></br>
                     <TextField className="confirmPasswordText" id="outlined-basic" variant="outlined" placeholder="Confirm Password"/>
                     <button className="registerButton">Sign Up</button>
                     <button className="loginButton">Login Into Account</button>
