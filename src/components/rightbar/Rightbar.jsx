@@ -4,6 +4,7 @@ import Online from '../online/Online';
 
 export default function Rightbar() {
     return (
+        
         <div className="rightbar">
             <div className="rightbarWrapper">
                 <div className="birthdayContainer">

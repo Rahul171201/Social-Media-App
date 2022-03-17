@@ -5,6 +5,8 @@ import { useState } from 'react';
 
 export default function Post({ post }) {
 
+    const PF = process.env.REACT_APP_PUBLIC_FOLDER;
+
     let userName = "";
     let userImage = "";
     Users.forEach((element) => {
@@ -31,7 +33,7 @@ export default function Post({ post }) {
             <div className="postWrapper">
                 <div className="postTop">
                     <div className="postTopLeft">
-                        <img src={userImage} className="postProfileImage" alt=""></img>
+                        <img src={PF + userImage} className="postProfileImage" alt=""></img>
                         <span className="postUsername">{userName}</span>
                         <span className="postTime">{post.date}</span>
                     </div>
@@ -41,7 +43,7 @@ export default function Post({ post }) {
                 </div>
                 <div className="postCenter">
                     <div className="postText">{post.desc}</div>
-                    <img className="postImage" src={post.img} alt="post image"></img>
+                    <img className="postImage" src={PF + post.img} alt="post image"></img>
                 </div>
                 <div className="postBottom">
                     <div className="postBottomLeft">
