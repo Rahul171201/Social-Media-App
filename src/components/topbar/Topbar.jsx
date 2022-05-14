@@ -37,7 +37,10 @@ export default function Topbar() {
                         <span className="topbarIconBadge">1</span>
                     </div>
                 </div>
-                <img src="/assets/persons/person1.jfif" alt="profile picture" className="topbarImage"></img>
+                <Link to="/profile/Rahul Roy">
+                    <img src="/assets/persons/person1.jfif" alt="profile picture" className="topbarImage"></img>
+                </Link>
+                
             </div>
         </div>
     )
