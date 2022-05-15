@@ -1,5 +1,5 @@
 .loginContainer{
-    background-color: #E7EAB5;
+    background-image: url("loginbackground.jpg");
     display: flex;
     width: 100vw;
     height:100vh;
@@ -17,11 +17,20 @@
     flex: 7;
 }
 .title{
-    color: #57CC99;
-    font-size: 30px;
+    color: black;
+    font-size: 50px;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Ubuntu Mono', monospace;
 }
 .content{
     font-size: 20px;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Ubuntu Mono', monospace;
 }
 .logoImg{
     width: 50%;
@@ -50,18 +59,28 @@
     position: relative;
     bottom: 20px;
     width: 70%;
+    height: 40px;
 }
 .passwordText{
     width: 70%;
 }
 .loginButton{
     margin: 20px 0px;
-    width: 30%;
-    height: 40px;
-    background-color: #3DB2FF;
-    border-radius: 4px;
+    width: 60%;
+    height: 50px;
+    border-radius: 6px;
+    background-color: #F806CC;
     border: none;
     cursor: pointer;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Ubuntu Mono', monospace;
+    color: white;
+    font-size: 20px;
+}
+.loginButton:hover{
+    background-color: #570A57;
 }
 
 .registerButton{
@@ -69,7 +88,17 @@
     width: 60%;
     height: 50px;
     border-radius: 6px;
-    background-color: #FFCC29;
+    background-color: #06FF00;
     border: none;
     cursor: pointer;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Ubuntu Mono', monospace;
+    color: white;
+    font-size: 20px;
+}
+
+.registerButton:hover{
+    background-color: #064635;
 }

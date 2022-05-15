@@ -1,5 +1,5 @@
-.loginContainer{
-    background-color: #E7EAB5;
+.loginContainertemp{
+    background-image: url("loginbackground.jpg");
     display: flex;
     width: 100vw;
     height:100vh;
@@ -16,12 +16,21 @@
     padding: 50px;
     flex: 7;
 }
-.title{
-    color: #57CC99;
-    font-size: 30px;
+.titletemp{
+    color: black;
+    font-size: 50px;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Ubuntu Mono', monospace;
 }
-.content{
+.contenttemp{
     font-size: 20px;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Ubuntu Mono', monospace;
 }
 .logoImg{
     width: 50%;
@@ -44,34 +53,57 @@
     flex-direction: column;
     align-items: center;
 }
-.usernameText{
+.usernameTexttemp{
     width: 70%;
-}
-.emailText{
-    width: 70%;
-}
-.passwordText{
-    width: 70%;
-}
-.confirmPasswordText{
-    width: 70%;
-}
-.registerButton{
-    margin: 20px 0px;
-    width: 30%;
     height: 40px;
-    background-color: #3DB2FF;
-    border-radius: 4px;
-    border: none;
-    cursor: pointer;
+    margin-bottom: 18px;
 }
-
-.loginButton{
+.emailTexttemp{
+    width: 70%;
+    height: 40px;
+}
+.passwordTexttemp{
+    width: 70%;
+    height: 40px;
+}
+.confirmPasswordTexttemp{
+    width: 70%;
+    height: 40px;
+}
+.registerButtontemp{
     margin: 20px 0px;
     width: 60%;
     height: 50px;
     border-radius: 6px;
-    background-color: #FFCC29;
+    background-color: #06FF00;
     border: none;
     cursor: pointer;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Ubuntu Mono', monospace;
+    color: white;
+    font-size: 20px;
+}
+.registerButtontemp:hover{
+    background-color: #064635;
+}
+
+.loginButtontemp{
+    margin: 20px 0px;
+    width: 60%;
+    height: 50px;
+    border-radius: 6px;
+    background-color: #F806CC;
+    border: none;
+    cursor: pointer;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Ubuntu Mono', monospace;
+    color: white;
+    font-size: 20px;
+}
+.loginButtontemp:hover{
+    background-color: #570A57;
 }

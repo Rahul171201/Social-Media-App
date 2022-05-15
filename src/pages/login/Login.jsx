@@ -1,8 +1,17 @@
-import React from 'react';
+import React, { useRef } from 'react';
 import './login.css';
 import TextField from '@material-ui/core/TextField';
 
 export default function Login() {
+
+    const email = useRef();
+    const password = useRef();
+
+    const handleClick = (e) => {
+        e.preventDefault();
+        console.log(email.current.value);
+    }
+
     return (
         <div className="loginContainer">
             <div className="loginWrapper">
@@ -12,12 +21,14 @@ export default function Login() {
                     <img className="logoImg" src="/assets/logo.png" alt=""></img>
                 </div>
                 <div className="loginRight">
-                    <div className="loginRightBox">
-                    <TextField className="usernameText" id="outlined-basic" variant="outlined" placeholder="Username"/>
-                    <TextField className="passwordText" id="outlined-basic" variant="outlined" placeholder="Password"/>
-                    <button className="loginButton">Log In</button>
-                    <button className="registerButton">Create a New Account</button>
-                    </div>
+
+                    <form onSubmit={handleClick} className="loginRightBox">
+                        <input className="usernameText" id="outlined-basic" variant="outlined" placeholder="Email" type='email' ref={email} required/>
+                        <input className="passwordText" id="outlined-basic" variant="outlined" placeholder="Password" type='password' ref={password} required/>
+                        <button className="loginButton">Log In</button>
+                        <button className="registerButton">Create a New Account</button>
+                    </form>
+
                 </div>
             </div>
         </div>
